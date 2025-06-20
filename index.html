@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App-landing project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+       body {
+  font-family: 'Poppins', sans-serif;
+}
+
+        .jumbotron{
+            background-image: url("https://images.unsplash.com/photo-1500220621438-7f1c548f639a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-position: left;
+            text-align: center;
+            color: aliceblue;
+            margin-top: 50px;
+            padding: 20px;
+            height: 500px;
+            font-size: 120%;
+        }
+        #naruto{
+            text-align: center;
+             margin-top: 40px;
+        }
+        #shinchan{
+            text-align: center;
+           
+            
+        } 
+        .col-md-4{
+            padding: 10px;
+        }
+        #image{
+            height: 250px;
+            width: auto;
+             color: #1f2e45;
+        }
+        #footer{
+            background-color: #1f2e45;
+            text-align: center;
+            color: white;
+            height: 400px;
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body id="scrollspyBody" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="150" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My app</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shinchan">Content</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true" href="#footer">Download the app</a>
+        </li>
+      </ul>
+      <form class="d-flex"  role="search">
+        <input class="form-control me-2" type="email" placeholder="Write email" aria-label="email"/>
+        <input class="form-control me-2" type="password" placeholder="Write password" aria-label="password"/>
+        <button class="btn btn-success " type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="jumbotron bg-dark text-white" id="jumbotron">
+      <h1 class="display-4">Welcome!</h1>
+      <p class="lead">This is a dark-themed Jumbotron using Bootstrap 4.</p>
+      <hr class="my-4 bg-light">
+      <p>Perfect for showing a featured section or a call to action.</p>
+      <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <div class="container section" id="naruto" >
+    <h1>Reason of supremacy</h1>
+    <p>This is because of following:</p>
+    </div>
+     <div class="container py-5 section" id="shinchan">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white h-100">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">📱 Fully Responsive Design:</h5>
+              <p class="card-text">The grid-based card layout adapts seamlessly across all screen sizes — from mobiles to desktops — ensuring that content is always well-organized and visually appealing without needing separate designs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white h-100">
+             <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">🖼️ Visual Hierarchy with Image Focus:</h5>
+              <p class="card-text">Each card highlights an image at the top, immediately grabbing user attention, followed by clear and concise information. This visual hierarchy helps users quickly understand what’s important.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white h-100">
+             <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">⚙️ Modular and Scalable Structure:</h5>
+              <p class="card-text">Cards act like independent modules. You can easily add, remove, or rearrange content without disturbing the overall layout — making the app flexible for any kind of content like products, news, team members, etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div  id="footer">
+        <h3>Download the app</h3>
+        <p>Life is incomplete without downloading this...</p>
+        <p><a href="#" ><img id="image" src="https://freepngimg.com/download/android/58438-play-app-android-now-button-store.png" alt="link"></a></p>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script></body>
+</html>
